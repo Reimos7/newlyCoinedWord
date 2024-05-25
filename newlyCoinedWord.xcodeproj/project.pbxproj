@@ -13,6 +13,7 @@
 		6E2D55542C01A2D90065C3A5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6E2D55532C01A2D90065C3A5 /* Base */; };
 		6E2D55562C01A2DA0065C3A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E2D55552C01A2DA0065C3A5 /* Assets.xcassets */; };
 		6E2D55592C01A2DA0065C3A5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6E2D55582C01A2DA0065C3A5 /* Base */; };
+		6E2D55612C01A3D50065C3A5 /* searchAppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2D55602C01A3D50065C3A5 /* searchAppController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6E2D55552C01A2DA0065C3A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E2D55582C01A2DA0065C3A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E2D555A2C01A2DA0065C3A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E2D55602C01A3D50065C3A5 /* searchAppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchAppController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				6E2D55552C01A2DA0065C3A5 /* Assets.xcassets */,
 				6E2D55572C01A2DA0065C3A5 /* LaunchScreen.storyboard */,
 				6E2D555A2C01A2DA0065C3A5 /* Info.plist */,
+				6E2D55602C01A3D50065C3A5 /* searchAppController.swift */,
 			);
 			path = newlyCoinedWord;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				6E2D55512C01A2D90065C3A5 /* ViewController.swift in Sources */,
 				6E2D554D2C01A2D90065C3A5 /* AppDelegate.swift in Sources */,
 				6E2D554F2C01A2D90065C3A5 /* SceneDelegate.swift in Sources */,
+				6E2D55612C01A3D50065C3A5 /* searchAppController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +304,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +312,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.newlyCoinedWord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -328,6 +337,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +345,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.newlyCoinedWord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
